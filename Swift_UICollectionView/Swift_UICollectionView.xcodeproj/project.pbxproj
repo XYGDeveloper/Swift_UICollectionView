@@ -13,6 +13,16 @@
 		B01B66571DE4188B00A062F6 /* Swift_UICollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B66561DE4188B00A062F6 /* Swift_UICollectionViewTests.swift */; };
 		B01B66621DE4188B00A062F6 /* Swift_UICollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B66611DE4188B00A062F6 /* Swift_UICollectionViewUITests.swift */; };
 		B01B66701DE418AE00A062F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B666F1DE418AE00A062F6 /* MainViewController.swift */; };
+		B01B66721DE41AC400A062F6 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B66711DE41AC400A062F6 /* BasicViewController.swift */; };
+		B01B66741DE4202A00A062F6 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B66731DE4202A00A062F6 /* CustomViewController.swift */; };
+		B01B66761DE4204500A062F6 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B66751DE4204500A062F6 /* CustomCollectionViewCell.swift */; };
+		B01B66781DE42B0C00A062F6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B66771DE42B0C00A062F6 /* DetailViewController.swift */; };
+		B01B669B1DE42D8F00A062F6 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B668F1DE42D8F00A062F6 /* AFHTTPSessionManager.m */; };
+		B01B669C1DE42D8F00A062F6 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B66921DE42D8F00A062F6 /* AFNetworkReachabilityManager.m */; };
+		B01B669D1DE42D8F00A062F6 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B66941DE42D8F00A062F6 /* AFSecurityPolicy.m */; };
+		B01B669E1DE42D8F00A062F6 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B66961DE42D8F00A062F6 /* AFURLRequestSerialization.m */; };
+		B01B669F1DE42D8F00A062F6 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B66981DE42D8F00A062F6 /* AFURLResponseSerialization.m */; };
+		B01B66A01DE42D8F00A062F6 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B669A1DE42D8F00A062F6 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,24 @@
 		B01B66611DE4188B00A062F6 /* Swift_UICollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UICollectionViewUITests.swift; sourceTree = "<group>"; };
 		B01B66631DE4188B00A062F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B01B666F1DE418AE00A062F6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B01B66711DE41AC400A062F6 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		B01B66731DE4202A00A062F6 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		B01B66751DE4204500A062F6 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		B01B66771DE42B0C00A062F6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B01B668D1DE42D8E00A062F6 /* Swift_UICollectionView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift_UICollectionView-Bridging-Header.h"; sourceTree = "<group>"; };
+		B01B668E1DE42D8F00A062F6 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B01B668F1DE42D8F00A062F6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B01B66901DE42D8F00A062F6 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B01B66911DE42D8F00A062F6 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B01B66921DE42D8F00A062F6 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B01B66931DE42D8F00A062F6 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B01B66941DE42D8F00A062F6 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B01B66951DE42D8F00A062F6 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B01B66961DE42D8F00A062F6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B01B66971DE42D8F00A062F6 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B01B66981DE42D8F00A062F6 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B01B66991DE42D8F00A062F6 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B01B669A1DE42D8F00A062F6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +123,29 @@
 		B01B66451DE4188B00A062F6 /* Swift_UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B01B668E1DE42D8F00A062F6 /* AFHTTPSessionManager.h */,
+				B01B668F1DE42D8F00A062F6 /* AFHTTPSessionManager.m */,
+				B01B66901DE42D8F00A062F6 /* AFNetworking.h */,
+				B01B66911DE42D8F00A062F6 /* AFNetworkReachabilityManager.h */,
+				B01B66921DE42D8F00A062F6 /* AFNetworkReachabilityManager.m */,
+				B01B66931DE42D8F00A062F6 /* AFSecurityPolicy.h */,
+				B01B66941DE42D8F00A062F6 /* AFSecurityPolicy.m */,
+				B01B66951DE42D8F00A062F6 /* AFURLRequestSerialization.h */,
+				B01B66961DE42D8F00A062F6 /* AFURLRequestSerialization.m */,
+				B01B66971DE42D8F00A062F6 /* AFURLResponseSerialization.h */,
+				B01B66981DE42D8F00A062F6 /* AFURLResponseSerialization.m */,
+				B01B66991DE42D8F00A062F6 /* AFURLSessionManager.h */,
+				B01B669A1DE42D8F00A062F6 /* AFURLSessionManager.m */,
 				B01B66461DE4188B00A062F6 /* AppDelegate.swift */,
 				B01B666F1DE418AE00A062F6 /* MainViewController.swift */,
+				B01B66711DE41AC400A062F6 /* BasicViewController.swift */,
+				B01B66731DE4202A00A062F6 /* CustomViewController.swift */,
+				B01B66751DE4204500A062F6 /* CustomCollectionViewCell.swift */,
+				B01B66771DE42B0C00A062F6 /* DetailViewController.swift */,
 				B01B66481DE4188B00A062F6 /* Assets.xcassets */,
 				B01B664A1DE4188B00A062F6 /* LaunchScreen.storyboard */,
 				B01B664D1DE4188B00A062F6 /* Info.plist */,
+				B01B668D1DE42D8E00A062F6 /* Swift_UICollectionView-Bridging-Header.h */,
 			);
 			path = Swift_UICollectionView;
 			sourceTree = "<group>";
@@ -191,6 +237,7 @@
 					B01B66421DE4188B00A062F6 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = ZBWQAWK483;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					B01B66511DE4188B00A062F6 = {
@@ -259,7 +306,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B01B66471DE4188B00A062F6 /* AppDelegate.swift in Sources */,
+				B01B669D1DE42D8F00A062F6 /* AFSecurityPolicy.m in Sources */,
+				B01B66761DE4204500A062F6 /* CustomCollectionViewCell.swift in Sources */,
+				B01B66721DE41AC400A062F6 /* BasicViewController.swift in Sources */,
+				B01B669F1DE42D8F00A062F6 /* AFURLResponseSerialization.m in Sources */,
+				B01B66781DE42B0C00A062F6 /* DetailViewController.swift in Sources */,
 				B01B66701DE418AE00A062F6 /* MainViewController.swift in Sources */,
+				B01B669B1DE42D8F00A062F6 /* AFHTTPSessionManager.m in Sources */,
+				B01B669E1DE42D8F00A062F6 /* AFURLRequestSerialization.m in Sources */,
+				B01B66A01DE42D8F00A062F6 /* AFURLSessionManager.m in Sources */,
+				B01B669C1DE42D8F00A062F6 /* AFNetworkReachabilityManager.m in Sources */,
+				B01B66741DE4202A00A062F6 /* CustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,11 +460,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZBWQAWK483;
 				INFOPLIST_FILE = Swift_UICollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--------------.Swift-UICollectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift_UICollectionView/Swift_UICollectionView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -416,11 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZBWQAWK483;
 				INFOPLIST_FILE = Swift_UICollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--------------.Swift-UICollectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift_UICollectionView/Swift_UICollectionView-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

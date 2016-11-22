@@ -8,13 +8,61 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+    var tableView:UITableView?
+    var array = ["系统cell","自定义cell","自定义头部","",""]
+    let identity:String = "cell"
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        
+        self.tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
+        self.view.addSubview(tableView!)
+        self.tableView?.delegate = self;
+        self.tableView?.dataSource = self;
+        self.tableView?.register(UITableViewCell.self, forCellReuseIdentifier: identity)
+        
+                // Do any additional setup after loading the view.
     }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.array.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: identity)!
+        cell.textLabel?.text = self.array[indexPath.row]
+        
+        return cell
+        
+    }
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        if indexPath.row == 0 {
+            
+            let basic = BasicViewController()
+            
+            self.navigationController?.pushViewController(basic, animated: true)
+        }else if indexPath.row == 1
+        {
+        
+            let custom = CustomViewController()
+            self.navigationController?.pushViewController(custom, animated: true)
+            
+        }
+    
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -22,14 +70,5 @@ class MainViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
