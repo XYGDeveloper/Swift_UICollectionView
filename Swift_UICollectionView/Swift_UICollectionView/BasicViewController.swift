@@ -12,10 +12,7 @@ class BasicViewController: UIViewController,UICollectionViewDelegate,UICollectio
 
     var collectionView:UICollectionView!
     let identity:String = "collectionCell"
-    
-    
-    
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,7 +30,7 @@ class BasicViewController: UIViewController,UICollectionViewDelegate,UICollectio
         
         self.collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: identity)
         
-        // Do any additional setup after loading the view.
+
     }
     
     
@@ -42,6 +39,7 @@ class BasicViewController: UIViewController,UICollectionViewDelegate,UICollectio
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
         return 100
         
     }
@@ -60,15 +58,6 @@ class BasicViewController: UIViewController,UICollectionViewDelegate,UICollectio
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

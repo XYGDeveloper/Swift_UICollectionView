@@ -35,7 +35,6 @@ class CustomViewController: UIViewController,UICollectionViewDelegate,UICollecti
         // Do any additional setup after loading the view.
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 100
     }
